@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jkcclemens
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tenjava.com
+  * I am jkcclemens (https://keybase.io/jkcclemens) on keybase.
+  * I have a public key ASCDdN9x8ONxUGMjdRAtoJFad1WbT6vljElEHVQ5Ct9pzgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014370e10165be039e51f271441bf90b4ec24004b8fab3c4da30453116d5c307b40a",
+            "host": "keybase.io",
+            "kid": "01208374df71f0e37150632375102da0915a77559b4fabe58c49441d54390adf69ce0a",
+            "uid": "05c713756be9995abcb7f1b8d3b2f200",
+            "username": "jkcclemens"
+        },
+        "service": {
+            "hostname": "tenjava.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1472746932,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1472746917,
+        "hash": "79020c38ec45a63ac60e74c4c0c0b02f6950828a3cfd453d20ecb2ea33f16bcb6a2037816fc1b8f2fe542994bfcfeffe5c8bf29161b35cb69af3c7d5fe7f384a",
+        "seqno": 614145
+    },
+    "prev": "13561ebba1c54bd297ca853d639200040e41608c7a086fbf166968ba1fb9a63f",
+    "seqno": 75,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgg3TfcfDjcVBjI3UQLaCRWndVm0+r5YxJRB1UOQrfac4Kp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDM3MGUxMDE2NWJlMDM5ZTUxZjI3MTQ0MWJmOTBiNGVjMjQwMDRiOGZhYjNjNGRhMzA0NTMxMTZkNWMzMDdiNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODM3NGRmNzFmMGUzNzE1MDYzMjM3NTEwMmRhMDkxNWE3NzU1OWI0ZmFiZTU4YzQ5NDQxZDU0MzkwYWRmNjljZTBhIiwidWlkIjoiMDVjNzEzNzU2YmU5OTk1YWJjYjdmMWI4ZDNiMmYyMDAiLCJ1c2VybmFtZSI6ImprY2NsZW1lbnMifSwic2VydmljZSI6eyJob3N0bmFtZSI6InRlbmphdmEuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzI3NDY5MzIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3Mjc0NjkxNywiaGFzaCI6Ijc5MDIwYzM4ZWM0NWE2M2FjNjBlNzRjNGMwYzBiMDJmNjk1MDgyOGEzY2ZkNDUzZDIwZWNiMmVhMzNmMTZiY2I2YTIwMzc4MTZmYzFiOGYyZmU1NDI5OTRiZmNmZWZmZTVjOGJmMjkxNjFiMzVjYjY5YWYzYzdkNWZlN2YzODRhIiwic2Vxbm8iOjYxNDE0NX0sInByZXYiOiIxMzU2MWViYmExYzU0YmQyOTdjYTg1M2Q2MzkyMDAwNDBlNDE2MDhjN2EwODZmYmYxNjY5NjhiYTFmYjlhNjNmIiwic2Vxbm8iOjc1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQBQAw4ZGSAX3vAWA3gHokRGx0qYVchwyOAb0vtb6b3EeSfIzS5LQYx9SJ9I/K+JOC2aUHxTv+FeDi8jX3P15cAWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDynOa2rzY4WgrsLe0PWY8IwB4WuQJuGCB2m6y+u10T4aN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jkcclemens
+
+==================================================================
