@@ -1,3 +1,7 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+#app:
+#    resource: "@TenjavaBundle/Controller/"
+#    type:     annotation
+
+homepage:
+    path: /
+    defaults: { _controller: \TenjavaBundle\Controller\DefaultController::indexAction }

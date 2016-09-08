@@ -1,0 +1,66 @@
+TenjavaBundle\Entity\User:
+    type: entity
+    table: users
+    indexes:
+        IDX_1483A5E9D60322AC:
+            columns:
+                - role_id
+    uniqueConstraints:
+        users_username_key:
+            columns:
+                - username
+        users_email_key:
+            columns:
+                - email
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: SEQUENCE
+    fields:
+        username:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+        email:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+    manyToOne:
+        role:
+            targetEntity: Role
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                role_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    manyToMany:
+        team:
+            targetEntity: Team
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: user
+            joinTable:
+                name: team_members
+                joinColumns:
+                    -
+                        name: user_id
+                        referencedColumnName: id
+                inverseJoinColumns:
+                    -
+                        name: team_id
+                        referencedColumnName: id
+            orderBy: null
+    lifecycleCallbacks: {  }

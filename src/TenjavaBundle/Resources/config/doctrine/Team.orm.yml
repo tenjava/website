@@ -1,0 +1,62 @@
+TenjavaBundle\Entity\Team:
+    type: entity
+    table: teams
+    indexes:
+        IDX_96C22258F5E3EAD7:
+            columns:
+                - leader
+    uniqueConstraints:
+        teams_name_key:
+            columns:
+                - name
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: SEQUENCE
+    fields:
+        name:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+        generalRules:
+            type: text
+            nullable: true
+            length: null
+            options:
+                fixed: false
+            column: general_rules
+        prizeRules:
+            type: text
+            nullable: true
+            length: null
+            options:
+                fixed: false
+            column: prize_rules
+    manyToOne:
+        leader:
+            targetEntity: User
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                leader:
+                    referencedColumnName: id
+            orphanRemoval: false
+    manyToMany:
+        users:
+            targetEntity: User
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: team
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+    lifecycleCallbacks: {  }

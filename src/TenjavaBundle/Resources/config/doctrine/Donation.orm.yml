@@ -1,0 +1,47 @@
+TenjavaBundle\Entity\Donation:
+    type: entity
+    table: donations
+    indexes:
+        IDX_CDE98962A76ED395:
+            columns:
+                - user_id
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: SEQUENCE
+    fields:
+        amount:
+            type: decimal
+            nullable: false
+            precision: 2
+            scale: 0
+        paymentType:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+            column: payment_type
+        message:
+            type: text
+            nullable: true
+            length: null
+            options:
+                fixed: false
+    manyToOne:
+        user:
+            targetEntity: Users
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                user_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }
