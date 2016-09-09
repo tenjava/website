@@ -25,6 +25,15 @@ TenjavaBundle\Entity\Team:
             length: 255
             options:
                 fixed: false
+        maxSize:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            column: max_size
+        private:
+            type: boolean
+            nullable: false
         generalRules:
             type: text
             nullable: true

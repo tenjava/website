@@ -8,6 +8,8 @@ use Doctrine\Common\Collections\Collection;
 class Team {
     private $id;
     private $name;
+    private $maxSize;
+    private $private;
     private $generalRules;
     private $prizeRules;
     private $leader;
@@ -29,6 +31,26 @@ class Team {
 
     public function getName(): string {
         return $this->name;
+    }
+
+    public function getMaxSize(): int {
+        return $this->maxSize;
+    }
+
+    public function setMaxSize(int $maxSize): Team {
+        $this->maxSize = $maxSize;
+
+        return $this;
+    }
+
+    public function getPrivate(): bool {
+        return $this->private;
+    }
+
+    public function setPrivate(bool $private): Team {
+        $this->private = $private;
+
+        return $this;
     }
 
     public function setGeneralRules(?string $generalRules): Team {
