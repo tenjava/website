@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace TenjavaBundle\Controller;
 
@@ -12,6 +12,7 @@ class DefaultController extends Controller {
         /** @var \Doctrine\Common\Persistence\ObjectRepository */
         $repository = $this->getDoctrine()->getRepository(Role::class);
         dump($repository->findAll());
+
         return $this->render('TenjavaBundle::default/index.html.twig');
     }
 
